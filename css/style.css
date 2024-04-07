@@ -7592,15 +7592,29 @@ h1, h2, h3, h4, h5,
     font-size: 100px;
     font-weight: 700; }
 
+  @media (max-width: 768px) {
+      .slider-text h1 span {
+          margin-left: 10px;
+          font-size: 50px; 
+      }
+      
+  }
+
 .slider-text p {
   font-size: 50px;
   line-height: 1.5;
   font-weight: 300;
   color: white }
-  .slider-text p strong {
-    font-weight: 700; }
-    .slider-text p strong a {
-      color: #000000; }
+.slider-text p strong {
+  font-weight: 700; }
+.slider-text p strong a {
+    color: #000000; }
+@media (max-width: 768px) {
+  .slider-text p {
+    margin-left: 10px;
+    font-size: 25px; 
+}
+}
 
 .slider-text .breadcrumbs {
   font-size: 18px;
