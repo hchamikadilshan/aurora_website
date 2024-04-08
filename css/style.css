@@ -7451,11 +7451,15 @@ h1, h2, h3, h4, h5,
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
-    border-radius: 2px; }
+    border-radius: 2px; 
+    transition: transform 0.3s ease;
+    }
     .ftco-navbar-light .navbar-nav > .nav-item.cta > a span {
       display: inline-block;
       color: #fff; }
     .ftco-navbar-light .navbar-nav > .nav-item.cta > a:hover {
+      color: white;
+      transform: scale(1.05);
       background: #ac15b0;
       border: 1px solid #ac15b0; }
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored a {
@@ -7465,7 +7469,7 @@ h1, h2, h3, h4, h5,
     color: rgba(0, 0, 0, 0.5); }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: black !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
@@ -7515,31 +7519,31 @@ h1, h2, h3, h4, h5,
         border-radius: 0px;
         padding-left: 0rem !important;
         padding-right: 0rem !important; } }
-    .ftco-navbar-light.scrolled .navbar-toggler {
+      .ftco-navbar-light.scrolled .navbar-toggler {
       border: none;
-      color: rgba(0, 0, 0, 0.5) !important;
+      color: black !important;
       border-color: rgba(0, 0, 0, 0.5) !important;
       cursor: pointer;
       padding-right: 0;
       text-transform: uppercase;
       font-size: 16px;
       letter-spacing: .1em; }
-    .ftco-navbar-light.scrolled .nav-link {
+      .ftco-navbar-light.scrolled .nav-link {
       padding-top: 0.9rem !important;
       padding-bottom: 0.9rem !important;
       color: #000000 !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #6b76ff !important; }
-    .ftco-navbar-light.scrolled.awake {
+      .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
-    .ftco-navbar-light.scrolled.sleep {
+      .ftco-navbar-light.scrolled.sleep {
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
-    .ftco-navbar-light.scrolled .navbar-brand {
+      .ftco-navbar-light.scrolled .navbar-brand {
       color: #000000; }
 
 .navbar-brand {
