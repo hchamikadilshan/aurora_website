@@ -1,5 +1,5 @@
 // set the date we're counting down to
-var target_date = new Date('April, 8, 2024').getTime();
+var target_date = new Date('April, 28, 2024').getTime();
  
 // variables for time units
 var days, hours, minutes, seconds;
@@ -29,3 +29,22 @@ setInterval(function () {
     + minutes + ' <b>Minutes</b></span> <span class="seconds">' + seconds + ' <b>Seconds</b></span>';  
  
 }, 1000);
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Select the toggle button
+    var toggleButton = document.querySelector('.custom-toggler');
+    
+    // Add click event listener to toggle the active class on the menu icon
+    toggleButton.addEventListener('click', function() {
+        // Toggle the active class on the menu icon
+        toggleButton.querySelector('.menu-icon').classList.toggle('active');
+        
+        // Toggle the aria-expanded attribute value
+        var expanded = toggleButton.getAttribute('aria-expanded') === 'true' || false;
+        toggleButton.setAttribute('aria-expanded', !expanded);
+    });
+});

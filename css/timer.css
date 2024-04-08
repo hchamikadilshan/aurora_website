@@ -72,3 +72,26 @@
         text-align: center;
       }
 }
+
+
+
+/* Styling for the custom toggle button */
+.custom-toggler {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styling for the menu icon */
+.menu-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #000; /* Adjust as needed */
+    border-radius: 4px; /* Adjust as needed */
+}
+
+/* Styling for the active state of the menu icon */
+.menu-icon.active {
+    background-color: #fff; /* Adjust as needed */
+}
