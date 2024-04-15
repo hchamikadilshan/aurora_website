@@ -94,7 +94,18 @@ body {
   color:  #fff;
   text-align: left;
   background-color: black; }
-
+.banner_register_button{
+  margin-top: 30px;
+}
+.banner_register_button h2{
+  margin: 5px 25px ;
+}
+footer span .copywrite_new{
+  color:transparent;
+}
+footer span .copywrite_new:hover{
+  color:transparent;
+}
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
@@ -3292,6 +3303,9 @@ input[type="button"].btn-block {
     height: auto; /* Let the height adjust automatically to maintain aspect ratio */
 }
 
+footer .logo-img{
+  margin-top: 20px;
+}
 .comp-img {
   width: 100%; /* Set the width to your desired value */
   height: auto; /* Let the height adjust automatically to maintain aspect ratio */
