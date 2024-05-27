@@ -3264,6 +3264,24 @@ input[type="button"].btn-block {
   .nav-link.disabled {
     color: #6c757d; }
 
+/* hover effect for nav bar items, add temperory */
+
+.navbar-nav .nav-link {
+  font-size: 18px !important;
+  transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), font-weight 0.5s ease, font-size 0.5s ease;
+  transform-origin: right top;
+}
+
+.navbar-nav .nav-link:hover {
+  transform: scale(1.1); /* Adjust the scale value as needed */
+  color: #ac15b0 !important; /* Change this to your desired hover color */
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+/* end of nav bar hover effect */
+
+
 .nav-tabs {
   border-bottom: 1px solid #dee2e6; }
   .nav-tabs .nav-item {
