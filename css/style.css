@@ -2089,8 +2089,8 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(120, 213, 239, 0.5); }
 
 .btn-primaryy {
-  color: white;
-  background-color: #ac15b0;
+  color: white !important;
+  background-color: #ac15b0 !important;
   border-radius: 50px;
   border-color: #ac15b0;
   transition: transform 0.3s ease;
